@@ -41,6 +41,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+  const navigation = document.getElementById('navigation');
   //Foi colocado a função no body html
   if (scrollY > 0) {
     navigation.classList.add('scroll')
